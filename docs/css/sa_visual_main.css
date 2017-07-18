@@ -1,10 +1,9 @@
 /* for top bar */
 nav[role="top_navbar"] {
-  margin-left: 0;
+  margin-left: 18%;
   }
 nav[role="top_navbar"] ul {
   list-style-type: none;
-  margin-left: 0 ;
   padding: 0;
   overflow: hidden;
   width: 100%;
@@ -31,16 +30,17 @@ nav[role="top_navbar"] li a {
   }
 
 nav[role="top_navbar"] li a:hover:not(.active) {
-    //background-color: #e6f3ff;
-    border-bottom: 3px solid #4da9ff;
+    /* background-color: #2980B9; #e6f3ff*/
+    border-bottom: 3px solid #ffd633 ; /*#4da9ff*/
   }
 
 nav[role="top_navbar"] .active {
 
     /*text-decoration: underline;*/
     font-weight: bold;
-    background-color: #ffd633;
+    background-color: #2980B9; /*#ffd633*/
     border-radius:10px;
+    color: #FFFFFF;
     display: block;
   }
 
@@ -82,11 +82,11 @@ p{
 /*secondary bars*/
 
 nav[role="2nd_top_navbar"] {
-  margin-left: 0;
+  margin-left: 19%;
   }
+
 nav[role="2nd_top_navbar"] ul {
   list-style-type: none;
-  margin-left: 25% ;
   padding: 0;
   overflow: hidden;
   width: 100%;
@@ -122,3 +122,8 @@ nav[role="2nd_top_navbar"] li a {
       border-bottom: 2px solid #ffd633;
       display: block;
     }
+
+  .container-svg{
+  position:relative; /* add position:relative on the out box */
+
+}
