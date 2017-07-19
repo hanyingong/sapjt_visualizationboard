@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/01_bipartite.css" type = "text/css">
     <script src = "js/viz.v1.1.0.min.js"></script>
     <script src = "js/lib/d3/d3.js"></script>
-    <script src = "js/csv_array.js"></script>
     <script src = "js/01_bipartite_graph.js"> </script>
+
   </head>
 
   <body>
@@ -43,7 +43,14 @@
 
   </div>-->
     <div class="bipartite_graph">
-        <script> var graph = bipartite_graph()
+        <script>
+        var bipartite_data = 'dataset/bipartite_graph.csv';
+        // Parse local CSV file
+        var data = d3.csv(bipartite_data, function(data) {
+                    console.log(data[0]);
+                    });
+        var graph = bipartite_graph()
+
         </script>
 
   </body>
