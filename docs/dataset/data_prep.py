@@ -22,3 +22,4 @@ df.columns= ['rid', 'uid', 'senti_score', 'spe_clus_id',
              'kmn_clus_id', 'name', 'venue_type','venue_name']
 
 
+df2 = pd.read_csv('dataset/bipartite_graph.csv', sep = ',')

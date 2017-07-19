@@ -1,12 +1,23 @@
+function draw_bipartite_graph() {
+
+var bartite_data = 'dataset/bipartite_graph.csv';
+
+d3.csv(bartite_data, function(d) {
+    data = d.map(function(d) {return [d["name"], d["cluster_no"], +d["gmm_cluster"], +d["spec_cluster"]];});   //Once loaded, copy to dataset.
+    console.log(data);
+    bipartite_graph()   //Then call other functions that
+});
+//
 function bipartite_graph() {
 
-  var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
+var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
               Asian_Restaurant:"#e91e63", Bakery:"#ad1457", Buffet:"#283593",
               Cafe:"#0277bd", Chinese_Restaurant:"#26c6da",  Deli:"#00695c", Diner:"#2e7d32",
               English_Restaurant:"#8bc34a", European_Restaurant:"#9e9d24", Fast_Food_Restaurant:"#f9a825",
               Food_Court:"#ff8f00", HongKong_Restaurant:"#e65100", Indian_Restaurant:"#bf360c",
               Japanese_Restaurant:"#5d4037", Malay_Restaurant:"#424242", Mediterranean_Restaurant:"#263238",
               Mexican_Restaurant:"#5d4037"};
+
 
   //var svg = d3.select("body").append("svg").attr("width", 1300).attr("height", 570).attr("padding",0);
 
@@ -88,4 +99,6 @@ function bipartite_graph() {
     });
   }
   d3.select(self.frameElement).style("height", "1800px");
+}
+
 }
