@@ -1,245 +1,171 @@
-Type	cluster_no	total_k	total_s
-American Restaurant	0	1020	20
-American Restaurant	1	231	0
-American Restaurant	2	206	20
-American Restaurant	3	695	0
-American Restaurant	4	0	352
-American Restaurant	5	0	36
-American Restaurant	6	0	9
-American Restaurant	7	0	771
-American Restaurant	8	0	1
-American Restaurant	9	0	162
-American Restaurant	10	0	1
-American Restaurant	11	0	5
-American Restaurant	12	0	1
-American Restaurant	13	0	765
-American Restaurant	14	0	2
-Asian Food	0	29	1
-Asian Food	1	5	0
-Asian Food	2	2	0
-Asian Food	3	14	0
-Asian Food	4	0	5
-Asian Food	5	0	1
-Asian Food	7	0	24
-Asian Food	9	0	1
-Asian Food	13	0	18
-Asian Restaurant	0	2769	44
-Asian Restaurant	1	722	0
-Asian Restaurant	2	509	58
-Asian Restaurant	3	2105	2
-Asian Restaurant	4	0	927
-Asian Restaurant	5	0	148
-Asian Restaurant	6	0	18
-Asian Restaurant	7	0	2263
-Asian Restaurant	8	0	1
-Asian Restaurant	9	0	411
-Asian Restaurant	10	0	2
-Asian Restaurant	11	0	14
-Asian Restaurant	13	0	2182
-Asian Restaurant	14	0	3
-Bakery	0	666	13
-Bakery	1	167	0
-Bakery	2	227	20
-Bakery	3	804	0
-Bakery	4	0	260
-Bakery	5	0	60
-Bakery	6	0	7
-Bakery	7	0	643
-Bakery	9	0	146
-Bakery	11	0	3
-Bakery	13	0	696
-Bakery	14	0	4
-Buffet	0	103	1
-Buffet	1	33	0
-Buffet	2	16	3
-Buffet	3	52	0
-Buffet	4	0	33
-Buffet	5	0	3
-Buffet	7	0	90
-Buffet	9	0	12
-Buffet	11	0	1
-Buffet	13	0	61
-Café	0	153	39
-Café	1	28	0
-Café	2	4076	77
-Café	3	2792	3
-Café	4	0	1027
-Café	5	0	191
-Café	6	0	20
-Café	7	0	2506
-Café	8	0	1
-Café	9	0	590
-Café	10	0	3
-Café	11	0	7
-Café	12	0	12
-Café	13	0	2535
-Café	14	0	10
-Chinese Restaurant	0	4322	80
-Chinese Restaurant	1	1343	0
-Chinese Restaurant	2	738	73
-Chinese Restaurant	3	3799	5
-Chinese Restaurant	4	0	1544
-Chinese Restaurant	5	0	251
-Chinese Restaurant	6	0	23
-Chinese Restaurant	7	0	3773
-Chinese Restaurant	9	0	727
-Chinese Restaurant	10	0	4
-Chinese Restaurant	11	0	18
-Chinese Restaurant	12	0	8
-Chinese Restaurant	13	0	3648
-Chinese Restaurant	14	0	12
-Deli	0	38	1
-Deli	1	3	0
-Deli	2	7	1
-Deli	3	33	0
-Deli	4	0	16
-Deli	5	0	3
-Deli	7	0	33
-Deli	9	0	6
-Deli	13	0	20
-Diner	0	3040	31
-Diner	1	633	0
-Diner	2	698	62
-Diner	3	2146	2
-Diner	4	0	924
-Diner	5	0	171
-Diner	6	0	17
-Diner	7	0	2324
-Diner	9	0	520
-Diner	10	0	1
-Diner	11	0	6
-Diner	12	0	5
-Diner	13	0	2420
-Diner	14	0	8
-English Restaurant	0	181	1
-English Restaurant	1	34	0
-English Restaurant	2	63	3
-English Restaurant	3	118	0
-English Restaurant	4	0	67
-English Restaurant	5	0	8
-English Restaurant	6	0	1
-English Restaurant	7	0	158
-English Restaurant	9	0	22
-English Restaurant	11	0	1
-English Restaurant	12	0	2
-English Restaurant	13	0	130
-European Restaurant	0	1576	15
-European Restaurant	1	227	0
-European Restaurant	2	375	31
-European Restaurant	3	1310	2
-European Restaurant	4	0	510
-European Restaurant	5	0	92
-European Restaurant	6	0	22
-European Restaurant	7	0	1241
-European Restaurant	9	0	285
-European Restaurant	10	0	1
-European Restaurant	11	0	8
-European Restaurant	12	0	2
-European Restaurant	13	0	1273
-European Restaurant	14	0	3
-Fast Food Restaurant	0	2406	27
-Fast Food Restaurant	1	638	0
-Fast Food Restaurant	2	360	31
-Fast Food Restaurant	3	1056	5
-Fast Food Restaurant	4	0	680
-Fast Food Restaurant	5	0	124
-Fast Food Restaurant	6	0	14
-Fast Food Restaurant	7	0	1585
-Fast Food Restaurant	9	0	308
-Fast Food Restaurant	10	0	2
-Fast Food Restaurant	11	0	4
-Fast Food Restaurant	13	0	1657
-Fast Food Restaurant	14	0	2
-Food Court	0	0	86
-Food Court	1	8208	1
-Food Court	2	679	66
-Food Court	3	2505	3
-Food Court	4	0	1669
-Food Court	5	0	235
-Food Court	6	0	35
-Food Court	7	0	4204
-Food Court	9	0	780
-Food Court	10	0	1
-Food Court	11	0	23
-Food Court	12	0	8
-Food Court	13	0	4252
-Food Court	14	0	13
-Hong Kong Restaurant	0	68	0
-Hong Kong Restaurant	1	20	0
-Hong Kong Restaurant	2	14	0
-Hong Kong Restaurant	3	67	0
-Hong Kong Restaurant	4	0	20
-Hong Kong Restaurant	5	0	5
-Hong Kong Restaurant	7	0	77
-Hong Kong Restaurant	9	0	15
-Hong Kong Restaurant	13	0	52
-Indian Restaurant	0	1734	27
-Indian Restaurant	1	439	0
-Indian Restaurant	2	258	24
-Indian Restaurant	3	686	0
-Indian Restaurant	4	0	472
-Indian Restaurant	5	0	76
-Indian Restaurant	6	0	16
-Indian Restaurant	7	0	1119
-Indian Restaurant	9	0	242
-Indian Restaurant	11	0	14
-Indian Restaurant	12	0	2
-Indian Restaurant	13	0	1120
-Indian Restaurant	14	0	1
-Indian Restuarant	0	70	1
-Indian Restuarant	1	9	0
-Indian Restuarant	2	8	0
-Indian Restuarant	3	21	0
-Indian Restuarant	4	0	17
-Indian Restuarant	5	0	1
-Indian Restuarant	7	0	29
-Indian Restuarant	9	0	4
-Indian Restuarant	11	0	3
-Indian Restuarant	13	0	53
-Japanese Restaurant	0	1950	25
-Japanese Restaurant	1	398	0
-Japanese Restaurant	2	550	48
-Japanese Restaurant	3	2173	0
-Japanese Restaurant	4	0	774
-Japanese Restaurant	5	0	127
-Japanese Restaurant	6	0	9
-Japanese Restaurant	7	0	1840
-Japanese Restaurant	9	0	400
-Japanese Restaurant	11	0	20
-Japanese Restaurant	12	0	1
-Japanese Restaurant	13	0	1808
-Japanese Restaurant	14	0	7
-Malay Restaurant	0	212	2
-Malay Restaurant	1	58	0
-Malay Restaurant	2	37	4
-Malay Restaurant	3	132	0
-Malay Restaurant	4	0	75
-Malay Restaurant	5	0	10
-Malay Restaurant	6	0	2
-Malay Restaurant	7	0	160
-Malay Restaurant	9	0	33
-Malay Restaurant	11	0	1
-Malay Restaurant	13	0	147
-Mediterranean Restaurant	0	246	0
-Mediterranean Restaurant	1	46	0
-Mediterranean Restaurant	2	70	4
-Mediterranean Restaurant	3	158	2
-Mediterranean Restaurant	4	0	90
-Mediterranean Restaurant	5	0	14
-Mediterranean Restaurant	6	0	2
-Mediterranean Restaurant	7	0	188
-Mediterranean Restaurant	9	0	41
-Mediterranean Restaurant	11	0	2
-Mediterranean Restaurant	13	0	175
-Mexican Restaurant	0	407	7
-Mexican Restaurant	1	50	0
-Mexican Restaurant	2	142	14
-Mexican Restaurant	3	388	2
-Mexican Restaurant	4	0	155
-Mexican Restaurant	5	0	17
-Mexican Restaurant	6	0	4
-Mexican Restaurant	7	0	336
-Mexican Restaurant	8	0	2
-Mexican Restaurant	9	0	105
-Mexican Restaurant	11	0	1
-Mexican Restaurant	13	0	343
+ï»¿Type,cluster_no,total_k,total_s
+American_Restaurant,0,167,21
+American_Restaurant,1,714,0
+American_Restaurant,2,196,795
+American_Restaurant,3,77,46
+American_Restaurant,4,312,1081
+American_Restaurant,5,94,202
+American_Restaurant,6,96,0
+American_Restaurant,7,71,0
+American_Restaurant,8,425,0
+Asian_Food,0,1,1
+Asian_Food,1,22,0
+Asian_Food,2,3,19
+Asian_Food,3,3,0
+Asian_Food,4,9,28
+Asian_Food,5,1,2
+Asian_Food,6,4,0
+Asian_Food,7,1,0
+Asian_Food,8,6,0
+Asian_Restaurant,0,358,44
+Asian_Restaurant,1,183,0
+Asian_Restaurant,2,537,2290
+Asian_Restaurant,3,36,127
+Asian_Restaurant,4,992,3038
+Asian_Restaurant,5,53,574
+Asian_Restaurant,6,2694,0
+Asian_Restaurant,7,50,0
+Asian_Restaurant,8,1202,0
+Bakery,0,205,13
+Bakery,1,456,0
+Bakery,2,164,716
+Bakery,3,54,48
+Bakery,4,389,877
+Bakery,5,65,198
+Bakery,6,74,0
+Bakery,7,51,0
+Bakery,8,406,0
+Buffet,0,9,1
+Buffet,1,74,0
+Buffet,2,23,64
+Buffet,3,22,5
+Buffet,4,25,120
+Buffet,5,5,14
+Buffet,6,8,0
+Buffet,7,5,0
+Buffet,8,33,0
+CafÃ©,0,3761,51
+CafÃ©,2,113,2651
+CafÃ©,3,0,189
+CafÃ©,4,1310,3381
+CafÃ©,5,86,749
+CafÃ©,6,72,0
+CafÃ©,7,141,0
+CafÃ©,8,1566,0
+Chinese_Restaurant,0,491,88
+Chinese_Restaurant,1,1,0
+Chinese_Restaurant,2,5557,3832
+Chinese_Restaurant,3,0,198
+Chinese_Restaurant,4,1848,5070
+Chinese_Restaurant,5,57,978
+Chinese_Restaurant,6,70,0
+Chinese_Restaurant,7,46,0
+Chinese_Restaurant,8,2132,0
+Deli,0,7,1
+Deli,1,25,0
+Deli,2,8,23
+Deli,3,0,1
+Deli,4,10,46
+Deli,5,5,9
+Deli,6,4,0
+Deli,7,1,0
+Deli,8,21,0
+Diner,0,454,36
+Diner,1,4,0
+Diner,2,483,2515
+Diner,3,0,142
+Diner,4,993,3116
+Diner,5,2954,682
+Diner,6,217,0
+Diner,7,29,0
+Diner,8,1383,0
+English_Restaurant,0,53,3
+English_Restaurant,1,116,0
+English_Restaurant,2,44,141
+English_Restaurant,3,7,7
+English_Restaurant,4,55,212
+English_Restaurant,5,12,30
+English_Restaurant,6,24,0
+English_Restaurant,7,15,0
+English_Restaurant,8,70,0
+European_Restaurant,0,297,17
+European_Restaurant,1,1071,0
+European_Restaurant,2,263,1316
+European_Restaurant,3,67,85
+European_Restaurant,4,625,1696
+European_Restaurant,5,161,371
+European_Restaurant,6,145,0
+European_Restaurant,7,67,0
+European_Restaurant,8,792,0
+Fast_Food_Restaurant,0,172,27
+Fast_Food_Restaurant,1,1,0
+Fast_Food_Restaurant,2,350,1721
+Fast_Food_Restaurant,3,0,99
+Fast_Food_Restaurant,4,468,2165
+Fast_Food_Restaurant,5,184,427
+Fast_Food_Restaurant,6,170,0
+Fast_Food_Restaurant,7,2481,0
+Fast_Food_Restaurant,8,634,0
+Food_Court,0,662,94
+Food_Court,1,12,1
+Food_Court,2,1471,4451
+Food_Court,3,5278,194
+Food_Court,4,1229,5586
+Food_Court,5,423,1050
+Food_Court,6,559,0
+Food_Court,7,477,0
+Food_Court,8,1281,0
+HongKong_Restaurant,0,13,0
+HongKong_Restaurant,1,46,0
+HongKong_Restaurant,2,12,56
+HongKong_Restaurant,3,5,3
+HongKong_Restaurant,4,31,92
+HongKong_Restaurant,5,10,18
+HongKong_Restaurant,6,6,0
+HongKong_Restaurant,7,11,0
+HongKong_Restaurant,8,35,0
+Indian_Restaurant,0,239,30
+Indian_Restaurant,1,1301,0
+Indian_Restaurant,2,275,1239
+Indian_Restaurant,3,176,73
+Indian_Restaurant,4,293,1537
+Indian_Restaurant,5,190,342
+Indian_Restaurant,6,167,0
+Indian_Restaurant,7,176,0
+Indian_Restaurant,8,408,0
+Japanese_Restaurant,0,485,26
+Japanese_Restaurant,1,1266,0
+Japanese_Restaurant,2,485,1891
+Japanese_Restaurant,3,116,113
+Japanese_Restaurant,4,1052,2508
+Japanese_Restaurant,5,199,521
+Japanese_Restaurant,6,196,0
+Japanese_Restaurant,7,84,0
+Japanese_Restaurant,8,1188,0
+Malay_Restaurant,0,31,2
+Malay_Restaurant,1,151,0
+Malay_Restaurant,2,37,157
+Malay_Restaurant,3,18,9
+Malay_Restaurant,4,74,221
+Malay_Restaurant,5,18,45
+Malay_Restaurant,6,26,0
+Malay_Restaurant,7,22,0
+Malay_Restaurant,8,62,0
+Mediterranean_Restaurant,0,53,0
+Mediterranean_Restaurant,1,169,0
+Mediterranean_Restaurant,2,41,182
+Mediterranean_Restaurant,3,16,13
+Mediterranean_Restaurant,4,79,267
+Mediterranean_Restaurant,5,26,56
+Mediterranean_Restaurant,6,26,0
+Mediterranean_Restaurant,7,16,0
+Mediterranean_Restaurant,8,94,0
+Mexican_Restaurant,0,115,7
+Mexican_Restaurant,1,269,0
+Mexican_Restaurant,2,72,349
+Mexican_Restaurant,3,9,28
+Mexican_Restaurant,4,197,479
+Mexican_Restaurant,5,49,123
+Mexican_Restaurant,6,37,0
+Mexican_Restaurant,7,21,0
+Mexican_Restaurant,8,218,0

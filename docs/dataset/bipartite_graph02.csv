@@ -1,0 +1,121 @@
+Type,cluster_no,total_k,total_s
+American Restaurant,0,1020,21
+American Restaurant,1,231,0
+American Restaurant,2,206,795
+American Restaurant,3,695,46
+American Restaurant,4,0,1081
+American Restaurant,5,0,202
+Asian Food,0,29,1
+Asian Food,1,5,0
+Asian Food,2,2,19
+Asian Food,3,14,0
+Asian Food,4,0,28
+Asian Food,5,0,2
+Asian Restaurant,0,2769,44
+Asian Restaurant,1,722,0
+Asian Restaurant,2,509,2290
+Asian Restaurant,3,2105,127
+Asian Restaurant,4,0,3038
+Asian Restaurant,5,0,574
+Bakery,0,666,13
+Bakery,1,167,0
+Bakery,2,227,716
+Bakery,3,804,48
+Bakery,4,0,877
+Bakery,5,0,198
+Buffet,0,103,1
+Buffet,1,33,0
+Buffet,2,16,64
+Buffet,3,52,5
+Buffet,4,0,120
+Buffet,5,0,14
+Café,0,153,51
+Café,1,28,0
+Café,2,4076,2651
+Café,3,2792,189
+Café,4,0,3381
+Café,5,0,749
+Chinese Restaurant,0,4322,88
+Chinese Restaurant,1,1343,0
+Chinese Restaurant,2,738,3832
+Chinese Restaurant,3,3799,198
+Chinese Restaurant,4,0,5070
+Chinese Restaurant,5,0,978
+Deli,0,38,1
+Deli,1,3,0
+Deli,2,7,23
+Deli,3,33,1
+Deli,4,0,46
+Deli,5,0,9
+Diner,0,3040,36
+Diner,1,633,0
+Diner,2,698,2515
+Diner,3,2146,142
+Diner,4,0,3116
+Diner,5,0,682
+English Restaurant,0,181,3
+English Restaurant,1,34,0
+English Restaurant,2,63,141
+English Restaurant,3,118,7
+English Restaurant,4,0,212
+English Restaurant,5,0,30
+European Restaurant,0,1576,17
+European Restaurant,1,227,0
+European Restaurant,2,375,1316
+European Restaurant,3,1310,85
+European Restaurant,4,0,1696
+European Restaurant,5,0,371
+Fast Food Restaurant,0,2406,27
+Fast Food Restaurant,1,638,0
+Fast Food Restaurant,2,360,1721
+Fast Food Restaurant,3,1056,99
+Fast Food Restaurant,4,0,2165
+Fast Food Restaurant,5,0,427
+Food Court,0,0,94
+Food Court,1,8208,1
+Food Court,2,679,4451
+Food Court,3,2505,194
+Food Court,4,0,5586
+Food Court,5,0,1050
+Hong Kong Restaurant,0,68,0
+Hong Kong Restaurant,1,20,0
+Hong Kong Restaurant,2,14,56
+Hong Kong Restaurant,3,67,3
+Hong Kong Restaurant,4,0,92
+Hong Kong Restaurant,5,0,18
+Indian Restaurant,0,1734,29
+Indian Restaurant,1,439,0
+Indian Restaurant,2,258,1183
+Indian Restaurant,3,686,70
+Indian Restaurant,4,0,1494
+Indian Restaurant,5,0,337
+Indian Restuarant,0,70,1
+Indian Restuarant,1,9,0
+Indian Restuarant,2,8,56
+Indian Restuarant,3,21,3
+Indian Restuarant,4,0,43
+Indian Restuarant,5,0,5
+Japanese Restaurant,0,1950,26
+Japanese Restaurant,1,398,0
+Japanese Restaurant,2,550,1891
+Japanese Restaurant,3,2173,113
+Japanese Restaurant,4,0,2508
+Japanese Restaurant,5,0,521
+Malay Restaurant,0,212,2
+Malay Restaurant,1,58,0
+Malay Restaurant,2,37,157
+Malay Restaurant,3,132,9
+Malay Restaurant,4,0,221
+Malay Restaurant,5,0,45
+Mediterranean Restaurant,0,246,0
+Mediterranean Restaurant,1,46,0
+Mediterranean Restaurant,2,70,182
+Mediterranean Restaurant,3,158,13
+Mediterranean Restaurant,4,0,267
+Mediterranean Restaurant,5,0,56
+Mexican Restaurant,0,407,7
+Mexican Restaurant,1,50,0
+Mexican Restaurant,2,142,349
+Mexican Restaurant,3,388,28
+Mexican Restaurant,4,0,479
+Mexican Restaurant,5,0,123
