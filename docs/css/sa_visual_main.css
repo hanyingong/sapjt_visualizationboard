@@ -82,7 +82,7 @@ p{
 /*secondary bars*/
 
 nav[role="2nd_top_navbar"] {
-  margin-left: 19%;
+  margin-left: 9%;
   }
 
 nav[role="2nd_top_navbar"] ul {
@@ -123,7 +123,46 @@ nav[role="2nd_top_navbar"] li a {
       display: block;
     }
 
-  .container-svg{
-  position:relative; /* add position:relative on the out box */
+  .return_tooltip{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 12;
+    font-weight: 300;
+    color: darkslategray;     //darkslategrey
+    text-align: center;
+    margin-left: 50%;
+  }
 
+/* tool tip for bipartite graph */
+  .bp_tooltip1 .bp_tooltiptext1 {
+    visibility: hidden;
+    width: 30%;
+    border: 2px #FF9642 solid;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 53%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.bp_tooltip1 .bp_tooltiptext1::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.bp_tooltip1:hover .bp_tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
 }
