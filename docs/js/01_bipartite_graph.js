@@ -101,6 +101,9 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
   }
   d3.select(self.frameElement).style("height", "1800px");
 }
+}
+
+function draw_bipartite_table(){
   var bartite_datatable = 'dataset/bipartite_table_final.csv';
   d3.csv(bartite_datatable, function(data2) {
       //data2 = d.map(function(d) {return [d["new_venue_type"], d["spe_clus_id"], +d["venue_name"], +d["med_senti_score"]];});   //Once loaded, copy to dataset.
@@ -138,4 +141,5 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
   });
   function draw_bipartite_table() {
   }
+
 }
