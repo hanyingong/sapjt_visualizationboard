@@ -22,7 +22,7 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
 
   var margin = {top: 0, right: 0, bottom: 0, left: 0};
   var width = 1300 ,
-    height = 530 ;
+      height = 530 ;
 
   var svg = d3.select("#bipartite_graph")
       .append("svg")
@@ -101,45 +101,4 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
   }
   d3.select(self.frameElement).style("height", "1800px");
 }
-}
-
-function draw_bipartite_table(){
-  var bartite_datatable = 'dataset/bipartite_table_final.csv';
-  d3.csv(bartite_datatable, function(data2) {
-      //data2 = d.map(function(d) {return [d["new_venue_type"], d["spe_clus_id"], +d["venue_name"], +d["med_senti_score"]];});   //Once loaded, copy to dataset.
-      console.log(data2);
-
-      // set dynamic filtering
-      $("[class*=label]").mouseover(function() {
-          var selected_label =  $(event.target).text();
-          console.log(selected_label);
-
-      var filter_by_rest_name = crossfilter(data2);
-      var typeDimension = filter_by_rest_name.dimension(function(data2) { return data2.new_venue_type; });
-      typeDimension.filter(selected_label)
-
-      //testing - have to remove
-      var n = filter_by_rest_name.groupAll().reduceCount().value();
-      var leg = filter_by_rest_name.groupAll().reduceSum(function(data2) { return data2.med_senti_score; }).value()
-      console.log(n) // 6
-      console.log(leg) // 6
-
-      //start creating of table:
-      dc.dataTable('#dataTable')
-        .dimension(filter_by_rest_name)
-          .group(function(data2){})
-        .columns([
-          function(data2) { return data2.venue_name; },
-          function(data2) { return data2.spe_clus_id; },
-          function(data2) { return data2.med_senti_score; }
-                ])
-        .size(10) //specific no. of return of results
-
-      draw_bipartite_table()   //Then call other functions
-});
-
-  });
-  function draw_bipartite_table() {
-  }
-
 }

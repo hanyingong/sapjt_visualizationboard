@@ -151,18 +151,19 @@ nav[role="2nd_top_navbar"] li a {
     transition: opacity 1s;
 }
 
-.bp_tooltip1 .bp_tooltiptext1::after {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    right: 100%; /* To the left of the tooltip */
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
-}
+/* Styles go here */
 
-.bp_tooltip1:hover .bp_tooltiptext1 {
-    visibility: visible;
-    opacity: 1;
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.styled-select.slate {
+  height: 34px;
+  width: 240px;
 }
