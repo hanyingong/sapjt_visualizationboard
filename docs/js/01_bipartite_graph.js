@@ -21,8 +21,8 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
   //var svg = d3.select("body").append("svg").attr("width", 1300).attr("height", 570).attr("padding",0);
 
   var margin = {top: 0, right: 0, bottom: 0, left: 0};
-  var width = 1300 - margin.left - margin.right,
-    height = 530 - margin.top - margin.bottom;
+  var width = 1300 ,
+    height = 530 ;
 
   var svg = d3.select("#bipartite_graph")
       .append("svg")
