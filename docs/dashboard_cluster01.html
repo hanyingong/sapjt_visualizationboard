@@ -4,16 +4,12 @@
     <!--main stylesheet-->
     <link rel="stylesheet" href="css/sa_visual_main.css" type = "text/css">
     <link rel="stylesheet" href="css/01_bipartite.css" type = "text/css">
-    <link rel="stylesheet" href="datatablelib/datatables.css" type = "text/css">
 
     <script src = "js/viz.v1.1.0.min.js"></script>
     <script src = "js/lib/d3/d3.js"></script>
     <script src = "js/jquery-3.2.1.js"></script>
     <script src = "js/01_bipartite_graph.js"> </script>
-    <script src="js/crossfilter.js"></script>
-    <script src="js/crossfilter.min.js"></script>
     <script src = "js/bipartite_graph_table.js"> </script>
-    <script src = "datatablelib/datatables.js"> </script>
 
   </head>
 
@@ -44,29 +40,11 @@
         </script>
     </div>
 
-    <div id="table" style="position: absolute; left: 45%; bottom: 20%">
-      this is a test
-      <script>
-        var showTable = draw_bipartite_table();
-      </script>
-      <table id='myTable'>
-  <thead>
-    <tr>
-      <th>ids</th>
-      <th>name</th>
-      <th>address</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1,2</td>
-      <td>Jhon</td>
-      <td>Doe</td>
-    </tr>
-  </tbody>
-</table>
+    <div id="bipartite_table" style="position: absolute; left: 40%; bottom: 40%">
+          <script>
+            var showTable = draw_bipartite_table();
+          </script>
     </div>
-
 
   </body>
 </html>
