@@ -139,13 +139,31 @@ nav[role="2nd_top_navbar"] li a {
 
   }
 
+  th {
+  		/**border: 1px black solid;*/
+  		padding: 3px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #B45F04 ;
+      font-size: 13;
+  }
+
+  th:nth-child(4){color: #ffffff; background-color: #ffffff; opacity: .0;}
+
   td {
   		/**border: 1px black solid;*/
   		padding: 3px;
       font-family: 'Roboto', sans-serif;
-      background-color: #E8F6F3 ;
-      font-size: 12;
-
+      background-color: #E8DAB4 ;
+      font-size: 13;
   }
 
   td:nth-child(4){color: #ffffff; background-color: #ffffff; opacity: .0;}
+  td:nth-child(3){text-align: center;}
+  td:nth-child(2){text-align: center;}
+
+  h6{
+    font-size: 14;
+    font-family: 'Roboto', sans-serif;
+    color: orange;     //darkslategrey
+
+    }

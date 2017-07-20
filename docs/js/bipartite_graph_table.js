@@ -10,15 +10,15 @@ function draw_bipartite_table() {
             {return [data2["venue_name"], data2["spe_clus_id"],
               +data2["med_senti_score"], data2["new_venue_type"]];});   //Once loaded, copy to dataset.
 
-    var container = d3.select('#bipartite_table')
-                      .append("table")
+    var container = d3.select('#myTable')
+                      .append("tbody")
                         .selectAll("tr")
                             .data(data2).enter()
                             .append("tr")
                         .selectAll("td")
                             .data(function(d) { return d; }).enter()
                             .append("td")
-                            .text(function(d) { return d; });
+                            .text(function(d) { return d; })
 
     console.log(data2)
 
@@ -38,7 +38,7 @@ function draw_bipartite_table() {
         $('table').show();
         var selected_label =  $(event.target).text();
         var selection = selected_label;
-        var dataset = $('table').find('tr');
+        var dataset = $('tbody').find('tr');
         // show all rows first
         dataset.show();
         // filter the rows that should be hidden

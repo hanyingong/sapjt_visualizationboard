@@ -40,7 +40,21 @@
         </script>
     </div>
 
-    <div id="bipartite_table" style="position: absolute; left: 40%; top: 25%">
+    <div id="bipartite_table" style="position: absolute; left: 40%; top: 15%">
+      <h6> Mouseover the label of "Restaurant Type" <br>
+           to view the top 10 restaurant name by <br>
+           median sentiment score.
+      </h6>
+      <table  id = "myTable">
+        <thead>
+          <tr>
+            <th>Venue Name</th>
+            <th>Spec Cluster</th>
+            <th>Median Senti Score</th>
+            <th></th>
+          </tr>
+        <thead>
+      </table>
           <script>
             var showTable = draw_bipartite_table();
           </script>
