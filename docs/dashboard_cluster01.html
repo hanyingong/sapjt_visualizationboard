@@ -4,9 +4,15 @@
     <!--main stylesheet-->
     <link rel="stylesheet" href="css/sa_visual_main.css" type = "text/css">
     <link rel="stylesheet" href="css/01_bipartite.css" type = "text/css">
+    <link rel="stylesheet" href="css/dc.css" type = "text/css">
+    <link rel="stylesheet" href="css/dc.min.css" type = "text/css">
     <script src = "js/viz.v1.1.0.min.js"></script>
     <script src = "js/lib/d3/d3.js"></script>
+    <script src = "js/jquery-3.2.1.js"></script>
     <script src = "js/01_bipartite_graph.js"> </script>
+    <script src="js/crossfilter.js"></script>
+    <script src="js/crossfilter.min.js"></script>
+    <script src="js/dc.js"></script>
   </head>
 
   <body>
@@ -30,22 +36,16 @@
       <li><a href="recomm_new_users.html">Recommendation 02: New Users</a></li>
     </ul>
   </nav>
-    <!-- content starts here
-  </div>
-  <div class = "return_tooltip">
-  <table>
-    <tr>
-      <td style = "border-right: 1px grey solid; width: 50%;">
-      </td>
-    </tr>
-  </table>
-
-  </div>-->
-    <div class="bipartite_graph">
+    <div id="bipartite_graph" style="position: absolute; left: 0%; bottom: 0%;">
         <script>
         var graph = draw_bipartite_graph()
         </script>
     </div>
+
+    <div id="bipartite_graph_table" style="position: absolute; left: 45%; bottom: 80%">
+      this is a test
+    </div>
+
 
   </body>
 </html>
