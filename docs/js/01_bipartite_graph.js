@@ -22,7 +22,7 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
 
   var margin = {top: 0, right: 0, bottom: 0, left: 0};
   var width = 1300 ,
-      height = 530 ;
+      height = 500 ;
 
   var svg = d3.select("#bipartite_graph")
       .append("svg")
@@ -43,7 +43,7 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
       .data(data)
       .min(10)
       .pad(0.5)
-      .height(470)
+      .height(450)
       .width(200)
       .barSize(35)
       .fill(d=>color[d.primary])
@@ -52,7 +52,7 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
       .value(d=>d[3])
       .min(10)
       .pad(0.5)
-      .height(470)
+      .height(450)
       .width(200)
       .barSize(35)
       .fill(d=>color[d.primary])
