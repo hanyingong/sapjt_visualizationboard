@@ -9,17 +9,42 @@ import pandas as pd
 
 import sqlite3
 
-## open database
-conn = sqlite3.connect('foursquare_v2.db')
+
+################### overview network graph ######################
+
+## open database_v3
+conn = sqlite3.connect('databases/foursquare_v3.db')
 c = conn.cursor()
 
-c.execute('SELECT * from user_cluster_venue_info;')
-results = c.fetchall()
+c.execute('SELECT * from venue_cluster_venuename')
+results2 = c.fetchall()
 
-df = pd.DataFrame(results)
+df2 = pd.DataFrame(results2)
 
-df.columns= ['rid', 'uid', 'senti_score', 'spe_clus_id', 
-             'kmn_clus_id', 'name', 'venue_type','venue_name']
+df2.columns = ['rid', 'uid', 'senti_score', 'senti_clus_id', 'name',
+               'venue_type', 'venue_name']
+
+df2 = df2.drop_duplicates()
+
+## df2.to_csv('overview_networkgraph_v2_.csv', sep = ',')
 
 
-df2 = pd.read_csv('dataset/bipartite_graph.csv', sep = ',')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

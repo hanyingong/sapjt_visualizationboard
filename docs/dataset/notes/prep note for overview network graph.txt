@@ -1,0 +1,10 @@
+Note on mapping data onto a graph
+
+link:
+source: name
+target: restaurant name
+value: senti score
+
+node:
+name : name
+group : cluster no. 

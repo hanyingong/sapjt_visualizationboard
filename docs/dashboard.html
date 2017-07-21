@@ -1,17 +1,16 @@
 <html>
-  <head>
-    <title>ISSS 608 - Social Analytics and Application Project </title>
-    <!--main stylesheet-->
-    <link rel="stylesheet" href="css/sa_visual_main.css" type = "text/css">
-    <link rel="stylesheet" href="css/01_bipartite.css" type = "text/css">
+<head>
+  <title>ISSS 608 - Social Analytics and Application Project </title>
+  <!--main stylesheet-->
+  <link rel="stylesheet" href="css/lib/02_overview_network.css" type = "text/css">
+  <link rel="stylesheet" href="css/sa_visual_main.css" type = "text/css">
 
-    <script src = "js/viz.v1.1.0.min.js"></script>
-    <script src = "js/lib/d3/d3.js"></script>
-    <script src = "js/jquery-3.2.1.js"></script>
-    <script src = "js/01_bipartite_graph.js"> </script>
-    <script src = "js/bipartite_graph_table.js"> </script>
+  <script src = "js/lib/viz.v1.1.0.min.js"></script>
+  <script src = "js/lib/d3.v2.js"></script>
+  <script src = "js/lib/jquery-3.2.1.js"></script>
+  <script src = "js/02_overview_network.js"> </script>
 
-  </head>
+</head>
 
   <body>
   <!-- this is the header portion-->
@@ -35,6 +34,27 @@
     </ul>
   </nav>
 
+  <div id="overview_graph" style=" position: relative; width: 65%; left: 0%; bottom: 0%;">
+      <script>
+      var graph = overview_networkgraph()
+      </script>
+  </div>
+
+  <div id="overview_graph_textbox" style="position: absolute; width: 30%; left: 68%; top: 20%; ">
+      <table style= "height: 80%;  border-collapse: separate; border-spacing: 3px;">
+        <tr style = "padding: 15px; width: 50%;">
+          <td style = "height: 30%; background-color: white ; border-bottom: 2px grey solid; ">
+            display legend using image /filter if filter is easy to do test fsefdgfdsgdsgdsgdgdsfhgfhhghghhghfdghnfhrj
+          </td>
+        </tr>
+        <tr style = " padding: 15px; width: 50% ;">
+          <td style = "background-color: white ; ">
+            description on how it works.
+          </td>
+        </tr>
+
+      </table>
+  </div>
 
   </body>
 </html>
