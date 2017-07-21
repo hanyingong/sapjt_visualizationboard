@@ -104,13 +104,14 @@ df2 = pd.concat(frames).reset_index(drop = True) ## combine
            
 
 ####################### create NODE DATASET ########################
+import numpy as np
 
 nodes_df =  df2[['uid', 'name', 'senti_clus_id']].\
                 drop_duplicates().reset_index(drop = True) ## user name and cluster
 
 nodes_df2 = df2[['rid','venue_name']].drop_duplicates()\
                                       .reset_index(drop = True) ## restaurant name
-nodes_df2['cluster_id'] = 100 ## restaurant cluster no. fixed at 100
+nodes_df2['cluster_id'] = np.arange(1000,1000+len(nodes_df2),1)
 
 nodes_df.columns = ['id', 'name', 'group'] #rename to have same name to combine
 nodes_df2.columns = ['id', 'name', 'group'] #rename to have same name to combine
