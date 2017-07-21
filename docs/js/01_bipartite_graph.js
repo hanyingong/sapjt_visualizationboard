@@ -3,7 +3,7 @@ function draw_bipartite_graph() {
 var bartite_data = 'dataset/bipartite_graph.csv';
 
 d3.csv(bartite_data, function(d) {
-    data = d.map(function(d) {return [d["name"], d["cluster_no"], +d["gmm_cluster"], +d["spec_cluster"]];});   //Once loaded, copy to dataset.
+    data = d.map(function(d) {return [d["name"], d["cluster_no"], +d["spec_cluster"], +d["gmm_cluster"]];});   //Once loaded, copy to dataset.
     console.log(data);
     bipartite_graph()   //Then call other functions that
 });
@@ -32,9 +32,9 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   svg.append("text").attr("x",330).attr("y",12)
-    .attr("class","header").text("Cluster by Dining Type (Count)");
-  svg.append("text").attr("x",1130).attr("y",12)
     .attr("class","header").text("Cluster by Sentiment Score");
+  svg.append("text").attr("x",1130).attr("y",12)
+    .attr("class","header").text("Cluster by Dining Type (Count)");
 
   var g =[svg.append("g").attr("transform","translate(230,45)")
       ,svg.append("g").attr("transform","translate(1000,45)")];
