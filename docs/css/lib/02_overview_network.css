@@ -19,6 +19,13 @@ path.hull {
 }
 line.link {
   stroke: #333;
-  stroke-opacity: 0.5;
+  <stroke-opacity: 10;
   pointer-events: none;
+}
+
+text {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16;
+  font-weight: 400;
 }

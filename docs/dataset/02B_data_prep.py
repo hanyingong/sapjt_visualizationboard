@@ -112,6 +112,8 @@ nodes_df =  df2[['uid', 'name', 'senti_clus_id']].\
 nodes_df2 = df2[['rid','venue_name']].drop_duplicates()\
                                       .reset_index(drop = True) ## restaurant name
 nodes_df2['cluster_id'] = np.arange(1000,1000+len(nodes_df2),1)
+##nodes_df2['cluster_id'] = 1000
+
 
 nodes_df.columns = ['id', 'name', 'group'] #rename to have same name to combine
 nodes_df2.columns = ['id', 'name', 'group'] #rename to have same name to combine
@@ -147,6 +149,7 @@ link_df3 = link_df2.merge(nodes_resta_df, on = 'rid', how = 'left')
 link_final_df = link_df3[['source_x', 'source_y', 'senti_score']]
 link_final_df.columns = ['source', 'target', 'value']
 ##link_final_df= link_final_df.applymap(str)
+link_final_df['value'] = 1
 
 links = []
 for i in range (len(link_final_df)):
