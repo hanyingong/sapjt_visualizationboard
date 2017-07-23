@@ -146,3 +146,11 @@ nav[role="2nd_top_navbar"] li a {
     color: orange;     //darkslategrey
 
     }
+
+    td {
+    		/**border: 1px black solid;*/
+    		padding: 3px;
+    		font-family: 'Roboto', sans-serif;
+    		background-color: #E8DAB4 ;
+    		font-size: 13;
+    }
