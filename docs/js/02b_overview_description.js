@@ -1,8 +1,0 @@
-function legend_table () {
-
-
-
-
-
-
-}
