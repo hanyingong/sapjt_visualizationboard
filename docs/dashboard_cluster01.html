@@ -9,32 +9,32 @@
     <script src = "js/lib/d3.js"></script>
     <script src = "js/lib/jquery-3.2.1.js"></script>
     <script src = "js/01_bipartite_graph.js"> </script>
-    <script src = "js/bipartite_graph_table.js"> </script>
+    <script src = "js/01b_bipartite_graph_table.js"> </script>
+    <!-- this is the header portion-->
+      <nav role = "top_navbar">
+        <ul class = "topnav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="methodology.html">Analytical Approach</a></li>
+              <li><a class="active" href="dashboard.html">Results</a></li>
+              <li><a href="Resource.html">Resource</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- this is the 2nd header portion-->
+    <nav role = "2nd_top_navbar">
+      <ul class = "topnav">
+        <li><a href="dashboard.html">Overview</a></li>
+        <li><a class = "active" href="dashboard_cluster01.html">Clustering 01: Restaurant Types</a></li>
+        <li><a href="dashboard_cluster02.html">Clustering 02: MRT</a></li>
+        <li><a href="recomm_existing_users.html">Recommendation 01: Existing Users</a></li>
+        <li><a href="recomm_new_users.html">Recommendation 02: New Users</a></li>
+      </ul>
+      <h4> (best view in Google Chrome with 1350 X 630 resolution.)</h4>
+    </nav>
 
   </head>
 
   <body>
-  <!-- this is the header portion-->
-    <nav role = "top_navbar">
-      <ul class = "topnav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="methodology.html">Analytical Approach</a></li>
-            <li><a class="active" href="dashboard.html">Results</a></li>
-            <li><a href="Resource.html">Resource</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-    <!-- this is the 2nd header portion-->
-  <nav role = "2nd_top_navbar">
-    <ul class = "topnav">
-      <li><a href="dashboard.html">Overview</a></li>
-      <li><a class = "active" href="dashboard_cluster01.html">Clustering 01: Restaurant Types</a></li>
-      <li><a href="dashboard_cluster02.html">Clustering 02: MRT</a></li>
-      <li><a href="recomm_existing_users.html">Recommendation 01: Existing Users</a></li>
-      <li><a href="recomm_new_users.html">Recommendation 02: New Users</a></li>
-    </ul>
-    <h4> (best view in Google Chrome with 1350 X 630 resolution.)</h4>
-  </nav>
     <div id="bipartite_graph" style="position: relative; left: 0%; bottom: 0%;">
         <script>
         var graph = draw_bipartite_graph()
