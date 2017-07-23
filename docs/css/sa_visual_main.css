@@ -157,13 +157,6 @@ nav[role="2nd_top_navbar"] li a {
 
   th:nth-child(4){color: #ffffff; background-color: #ffffff; opacity: .0;}
 
-  td {
-  		/**border: 1px black solid;*/
-  		padding: 3px;
-      font-family: 'Roboto', sans-serif;
-      background-color: #E8DAB4 ;
-      font-size: 13;
-  }
 
   td:nth-child(4){color: #ffffff; background-color: #ffffff; opacity: .0;}
   td:nth-child(3){text-align: center;}

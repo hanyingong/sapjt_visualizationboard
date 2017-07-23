@@ -149,7 +149,7 @@ link_df3 = link_df2.merge(nodes_resta_df, on = 'rid', how = 'left')
 link_final_df = link_df3[['source_x', 'source_y', 'senti_score']]
 link_final_df.columns = ['source', 'target', 'value']
 ##link_final_df= link_final_df.applymap(str)
-link_final_df['value'] = 1
+##link_final_df['value'] = 1
 
 links = []
 for i in range (len(link_final_df)):
