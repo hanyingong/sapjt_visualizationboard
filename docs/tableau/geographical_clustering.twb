@@ -575,7 +575,7 @@
           </groupfilter>
         </filter>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.63278' measure-ordering='alphabetic' measure-percentage='0.36722' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.589212' measure-ordering='alphabetic' measure-percentage='0.410788' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:loc_clus_id:ok]' palette='cyclic_10_0' type='palette'>
@@ -1292,7 +1292,7 @@
           <default-map-tool-selection tool='1' />
         </viewpoint>
       </viewpoints>
-      <active id='15' />
+      <active id='-1' />
     </window>
   </windows>
   <thumbnails>
