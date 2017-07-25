@@ -56,17 +56,17 @@ import pandas as pd
 
 #################################### user name master db #############################
 
-c.execute('SELECT uid, first_name,last_name, senti_clus_id, venue_clus_id, mrt_loc_clus_id from users')
+c.execute('SELECT uid, first_name,last_name, combined_clus_id from users')
 user_id = c.fetchall()
 
 user_id_df = pd.DataFrame(user_id)
-user_id_df.columns = ['uid', 'first_name','last_name','senti_clus_id', 'venue_clus_id', 'mrt_loc_clys_id']
+user_id_df.columns = ['uid', 'first_name','last_name','combined_clus_id']
 
 master_user_name = pd.DataFrame(user_id_df['uid'])
 master_user_name['name'] = user_id_df.first_name + ' ' + user_id_df.last_name
-master_user_name['senti_clus_id'] = user_id_df['senti_clus_id'] 
-master_user_name['venue_clus_id'] = user_id_df['venue_clus_id'] 
-master_user_name['mrt_loc_clus_id'] = user_id_df['mrt_loc_clys_id'] 
+#master_user_name['senti_clus_id'] = user_id_df['senti_clus_id'] 
+#master_user_name['venue_clus_id'] = user_id_df['venue_clus_id'] 
+master_user_name['combined_clus_id'] = user_id_df['combined_clus_id'] 
 master_user_name = master_user_name.sort_values('uid').reset_index(drop = True)
 
 #################################### resta name master db #############################
@@ -89,7 +89,7 @@ user_friend = user_friend_id_df.merge(master_user_name[['uid','name']], how = 'l
 user_friend.columns = ['user_id', 'uid', 'user_name']
 
 friend_list = user_friend.merge(master_user_name[['uid','name']], how = 'left')
-friend_list.columns = ['uid', 'users', 'friend_uid', 'friend_name']
+friend_list.columns = ['uid',  'friend_uid', 'users','friend_name']
 
 select_top_N = 20 ## can be modified 
 
