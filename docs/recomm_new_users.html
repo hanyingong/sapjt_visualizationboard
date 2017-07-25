@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>ISSS 608 - Social Analytics and Application Project </title>
+  <!--main stylesheet-->
+  <link rel="stylesheet" href="css/sa_visual_main.css" type = "text/css">
+  <link rel="stylesheet" href="css/lib/05_recommendation_new_user" type = "text/css">
+
+  <script src = "js/lib/d3.v2.js"></script>
+  <script src = "js/lib/jquery-3.2.1.js"></script>
+  <script src = "js/05_recommendation_new_user.js"></script>
+      <!-- this is the header portion-->
+  <nav role = "top_navbar">
+    <ul class = "topnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="methodology.html">Analytical Approach</a></li>
+          <li><a class="active" href="dashboard.html">Results</a></li>
+          <li><a href="Resource.html">Resource</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- this is the 2nd header portion-->
+<nav role = "2nd_top_navbar">
+  <ul class = "topnav">
+    <li><a class = "active" href="dashboard.html">Overview</a></li>
+    <li><a href="dashboard_cluster01.html">Clustering by Restaurants</a></li>
+    <li><a href="dashboard_cluster02.html">Clustering by Locations</a></li>
+    <li><a href="recomm_existing_users.html">Recommendation for: Existing Users</a></li>
+    <li><a href="recomm_new_users.html">Recommendation for: New Users</a></li>
+  </ul>
+</nav>
+</head>
+<!--1stportion-->
+
+<div id="table-description" style="position: absolute; width: 30%; right: 68%; top: 10%; ">
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+    <p> <b> Background: </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: left; font-family: 'Roboto'; font-size: 13;">
+        This is a force-directed graph which aim to provide a sample size of the dataset
+        used for this social analytics project.
+      </td>
+  </tr>
+  </table>
+  <table>
+  <p> <b> Legend: </b> </p>
+    <tr>
+      <td style = "background-color: white; color:black;text-align: right;font-family: 'Roboto'; font-size: 13;">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="20" fill="#ff8f00">
+        </svg>
+      </td>
+      <td style = "background-color: white; color:black;text-align: left;font-family: 'Roboto'; font-size: 13;">
+        Venue Name
+      </td>
+      <td style = "background-color: white; color:black;text-align: right;font-family: 'Roboto'; font-size: 13;">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="20" fill="#e91e63">
+        </svg>
+      </td>
+      <td style = "background-color: white; color:black;text-align: left; opacity:1; font-family: 'Roboto'; font-size: 13;">
+        Users: <br>Cluster 99
+      </td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color:black;text-align: right;font-family: 'Roboto'; font-size: 13;">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="20" fill="#9e9d24">
+        </svg>
+        </td>
+      <td style = "background-color: white; color:black;text-align: left;font-family: 'Roboto'; font-size: 13;">
+          Users: <br>Cluster 2
+      </td>
+      <td style = "background-color: white; color:black;text-align: right;font-family: 'Roboto'; font-size: 13;">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="20" fill="#0277bd">
+        </svg>
+      </td>
+        <td style = "background-color: white; color:black;text-align: left; opacity:1;font-family: 'Roboto'; font-size: 13;">
+          Users: <br>Cluster 4
+      </td>
+    </tr>
+  </table>
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+    <p> <b> How to use? </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: left;font-family: 'Roboto'; font-size: 13;">
+        <b>click on the venue's node (orange node) </b> view the name of the venue name <br><br>
+        <b>click on the clusters'node </b> to expand the graph so as to view how the users
+        (belonged to this cluster) are connected (visited/commented) to the venues.<br><br>
+        <b>click on the area </b> to group the cluster again. <br><br>
+      </td>
+  </tr>
+  </table>
+</div>
+<!--2nd portion-->
+<div id="new_users_recommendation_list" style=" position: absolute; width: 26%; right: 42%; top: 10%;  ">
+  <table style = "border-left: 1px solid grey; width: 100%;" >
+    <p> <b> Recommendation List: </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: left; font-family: 'Roboto'; font-size: 13;">
+replace with recommendation list
+      </td>
+  </tr>
+  </table>
+
+  <!--3rd portion-->
+
+<div id="new_users_overview_graph" style=" position: absolute; width: 65%; left: 32%%; bottom: 0%; ">
+    <script>
+    var graph = overview_networkgraph_new_users()
+    </script>
+</div>
+
+
+</body>
+</html>
