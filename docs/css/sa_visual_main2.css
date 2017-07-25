@@ -165,3 +165,12 @@ nav[role="2nd_top_navbar"] li a {
         text-align: left;
         background-color: #FFCC99 ;
     }
+
+
+    h2{
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        color: black;     //darkslategrey
+        font-size: 12px;
+        font-weight: 400;
+        }
